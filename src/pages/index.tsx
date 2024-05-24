@@ -8,18 +8,22 @@ export default function Page() {
   if (isHoliday === null) {
     return (
       <RootLayout>
-        <p>Loading...</p>
+        <div className="flex items-center justify-center h-screen">
+          <p className="text-2xl text-gray-600">Loading...</p>
+        </div>
       </RootLayout>
     );
   }
 
   return (
     <RootLayout>
-      <p>
-        {isHoliday
-          ? "Today is a public holiday"
-          : "Today is not a public holiday"}
-      </p>
+      <div className="flex items-center justify-center h-screen">
+        <p className={`text-2xl ${isHoliday ? 'text-green-500' : 'text-red-500'}`}>
+          {isHoliday
+            ? "Today is a public holiday"
+            : "Today is not a public holiday"}
+        </p>
+      </div>
     </RootLayout>
   );
 }

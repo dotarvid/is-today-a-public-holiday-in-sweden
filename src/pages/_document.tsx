@@ -1,5 +1,9 @@
 import { Html, Head, Main, NextScript } from "next/document";
 
+/**
+ * Renders the custom Document component for the Next.js application.
+ * This component is used to modify the application's <html> and <body> tags.
+ */
 export default function Document() {
   return (
     <Html lang="en">

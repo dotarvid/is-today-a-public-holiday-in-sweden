@@ -1,36 +1,94 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Is today a public holiday in Sweden?
+
+This is a simple web app that tells you if today is a public holiday in Sweden. It uses the [Nager.Date](https://github.com/nager/Nager.Date) API to get the data.
+
+Please, if you are an employer, feel free to look at it. I just want to make it clear that "is-even" and "is-is-even" is used as a joke. Looking for something more serious? Go back and look at other stuff I have published. 💚
+
+## Table of Contents
+
+- [Is today a public holiday in Sweden?](#is-today-a-public-holiday-in-sweden)
+  - [Table of Contents](#table-of-contents)
+  - [Background](#background)
+    - [Web API](#web-api)
+    - [Packages](#packages)
+  - [Getting Started](#getting-started)
+    - [Disclaimer](#disclaimer)
+    - [Pre requisites](#pre-requisites)
+    - [Installation](#installation)
+  - [Running the project](#running-the-project)
+  - [Contributing](#contributing)
+  - [License](#license)
+
+## Background
+
+This project is a part of a course in "Flerplattformsapplikationer" at [Malmö University](https://mau.se/). For the full instructions, see [GitHub Pages for the course](https://mau-webb.github.io/resurser/da395a-vt24/vg-assignment/) (in Swedish).
+
+I wanted to create a simple web app that tells you if today is a public holiday in Sweden. The project was built with [Next.js](https://nextjs.org/).
+
+We were required to build a web app that uses an API to get data, and use two packages.
+
+### Web API
+
+The API used in this project is the [Nager.Date](https://github.com/nager/Nager.Date) API. It provides data about public holidays in different countries.
+
+### Packages
+
+The two packages used in this project are:
+
+- [is-even](https://www.npmjs.com/package/is-even) - A package that tells you if a number is even or not.
+- [is-is-even](https://www.npmjs.com/package/is-is-even) - A package that tells you if a given function is the same as the is_even function from the is-even npm package.
+
+These packages were used to demonstrate how to use npm packages in a project. This choice was clearly made as a joke, as the packages are not very useful. 🤪
 
 ## Getting Started
 
-First, run the development server:
+### Disclaimer
+
+This project has only been tested on macOS. It should work on Windows and Linux as well, but I cannot guarantee that it will work as expected.
+
+### Pre requisites
+
+- Node.js [Node.js](https://nodejs.org/en/)
+- npm [npm](https://www.npmjs.com/get-npm)
+- git [git](https://git-scm.com/)
+
+To run this project you need to have [Node.js](https://nodejs.org/en/) installed. You can download it [here](https://nodejs.org/en/). The project was built for version **20.5.1 LTS**.
+
+### Installation
+
+First, clone the repository:
+
+```bash
+git clone https://github.com/arvid-berndtsson/is-today-a-public-holiday-in-sweden.git
+```
+
+Then, navigate to the project folder:
+
+```bash
+cd is-today-a-public-holiday
+```
+
+Install the dependencies:
+
+```bash
+npm install
+```
+
+## Running the project
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The project will start on port 3000. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+If the port is already in use, it will automatically switch to the next available port. Please check the terminal for the correct port.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Contributing
 
-## Learn More
+Pull requests are welcome. Please make sure to submit the pull requests to the [dev branch](https://github.com/arvid-berndtsson/is-today-a-public-holiday-in-sweden/tree/dev). For major changes, please open an issue first to discuss what you would like to change.
 
-To learn more about Next.js, take a look at the following resources:
+## License
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

@@ -65,7 +65,7 @@ git clone https://github.com/arvid-berndtsson/is-today-a-public-holiday-in-swede
 Then, navigate to the project folder:
 
 ```bash
-cd is-today-a-public-holiday
+cd is-today-a-public-holiday-in-sweden
 ```
 
 Install the dependencies:

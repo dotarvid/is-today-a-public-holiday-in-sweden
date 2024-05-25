@@ -2,7 +2,7 @@
 
 This is a simple web app that tells you if today is a public holiday in Sweden. It uses the [Nager.Date](https://github.com/nager/Nager.Date) API to get the data.
 
-Please, if you are an employer, feel free to look at it. I just want to make it clear that "is-even" and "is-is-even" is used as a joke. Looking for something more serious? Go back and look at other stuff I have published. 💚
+Please, if you are an employer, feel free to look at it. I just want to make it clear that [is-even](https://www.npmjs.com/package/is-even) and [is-is-even](https://www.npmjs.com/package/is-is-even) is used as a joke. Looking for something more serious? Go back and look at other stuff I have published. 💚
 
 ## Table of Contents
 
@@ -21,7 +21,7 @@ Please, if you are an employer, feel free to look at it. I just want to make it 
 
 ## Background
 
-This project is a part of a course in "Flerplattformsapplikationer" at [Malmö University](https://mau.se/). For the full instructions, see [GitHub Pages for the course](https://mau-webb.github.io/resurser/da395a-vt24/vg-assignment/) (in Swedish).
+This project is a part of a course in [Flerplattformsapplikationer med webbtekniker](https://mau-webb.github.io/resurser/da395a-vt24/) at [Malmö University](https://mau.se/). For the full instructions, see [GitHub Pages for the course](https://mau-webb.github.io/resurser/da395a-vt24/vg-assignment/) (in Swedish).
 
 I wanted to create a simple web app that tells you if today is a public holiday in Sweden. The project was built with [Next.js](https://nextjs.org/).
 
@@ -48,9 +48,9 @@ This project has only been tested on macOS. It should work on Windows and Linux 
 
 ### Pre requisites
 
-- Node.js [Node.js](https://nodejs.org/en/)
-- npm [npm](https://www.npmjs.com/get-npm)
-- git [git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/en/)
+- [npm](https://www.npmjs.com/get-npm)
+- [git](https://git-scm.com/)
 
 To run this project you need to have [Node.js](https://nodejs.org/en/) installed. You can download it [here](https://nodejs.org/en/). The project was built for version **20.5.1 LTS**.
 

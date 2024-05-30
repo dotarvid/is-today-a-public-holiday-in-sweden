@@ -1,1 +1,0 @@
-// Kept to prevent issues with the build process that sometimes occur with Next.js :shrug:
